@@ -1,0 +1,15 @@
+# DataSource Config
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      first:
+        url: jdbc:mysql://127.0.0.1:3306/renren_fast?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        username: root
+        password: cjylsy520
+      second:
+        url: jdbc:mysql://127.0.0.1:3306/renren_fast2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        username: root
+        password: cjylsy520
+
